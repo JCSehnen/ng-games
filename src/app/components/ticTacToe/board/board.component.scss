@@ -1,0 +1,26 @@
+.centered-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  main {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 0px;
+
+    app-square {
+      border: 1px gray solid;
+      height: 200px;
+      button {
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        font: inherit;
+        outline: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
